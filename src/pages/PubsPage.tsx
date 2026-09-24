@@ -54,11 +54,11 @@ export default function PubsPage() {
               <h3 className="text-2xl font-bold text-gray-900">At VinUniversity</h3>
             </div>
             <div className="max-w-4xl mx-auto space-y-6">
-              {publicationsData.vinUniversity.map((pub, index) => (
+              {[...publicationsData.vinUniversity].reverse().map((pub, index) => (
                 <div key={index} className="border-l-4 border-blue-600 pl-6 py-4 bg-blue-50 rounded-r-lg">
                   <div className="text-gray-900">
                     <p className="text-lg mb-2">
-                      <span className="font-bold">{index + 1}. </span>
+                      <span className="font-bold">{publicationsData.vinUniversity.length - index}.{' '} </span>
                       {pub.authors}, <span className="italic">"{pub.title}"</span>, {pub.journal}, {pub.volume}, {pub.page} ({pub.year}).
                     </p>
                   </div>

@@ -128,18 +128,7 @@ export const teamData: TeamData = {
       joinDate: "August 2023",
       imageUrl: "https://i.postimg.cc/FRht7V8Z/plaincolor-JPG.jpg"
     },
-    {
-      name: "Nguyen Thi Ben",
-      role: "Research Assistant",
-      research: "Theory and simulation of metasurfaces/photonic crystals and optical measurements",
-      education: {
-        bsc: "BSc: Materials Science, HUS-VNU Hanoi (2025)"
-      },
-      email: "ben.nt@vinuni.edu.vn",
-      joinDate: "August 2025",
-      imageUrl: "https://i.postimg.cc/4NsrPP3R/Bennt.jpg"
-
-    },
+    
     {
       name: "Tran Thi Thu Uyen",
       role: "Research Assistant",
@@ -181,14 +170,7 @@ export const teamData: TeamData = {
       joinDate: "September 2024",
       imageUrl: "https://i.postimg.cc/3rd12bpc/kien2.jpg"
     },
-    {
-      name: "Nguyen Dinh Phong, ME Cohort 4",
-      role: "Undergraduate Student",
-      research: "Topological optimization of nanophotonic structures",
-      email: "23phong.nd@vinuni.edu.vn",
-      joinDate: "September 2025",
-      imageUrl: "https://i.postimg.cc/rFZtjh9D/team-member-9-3-jpg.jpg"
-    },
+    
     {
       name: "Nguyen Ha Binh, ME Cohort 5",
       role: "Undergraduate Student",
@@ -241,7 +223,12 @@ export const teamData: TeamData = {
         role: "Undergraduate Student (ME Cohort 2)",
         currentPosition: "Master of Materials Science at UPenn",
         imageUrl: "https://i.postimg.cc/nryVWsfc/LDK.jpg"
-      }
+      },
+      {
+      name: "Nguyen Dinh Phong, ME Cohort 4",
+      role: "Undergraduate Student",
+      imageUrl: "https://i.postimg.cc/rFZtjh9D/team-member-9-3-jpg.jpg"
+    },
     ],
     researchAssistants: [
       {
@@ -251,6 +238,13 @@ export const teamData: TeamData = {
         currentPosition: "Ph.D. student at University of Grenoble, France",
         imageUrl: "https://i.postimg.cc/QCGprJ7R/TQT.jpg"
       },
+      {
+      name: "Nguyen Thi Ben",
+      role: "Research Assistant",
+      duration: "2025",
+      imageUrl: "https://i.postimg.cc/4NsrPP3R/Bennt.jpg"
+
+    },
       {
         name: "Nguyen Dinh Hai",
         role: "Research Assistant",

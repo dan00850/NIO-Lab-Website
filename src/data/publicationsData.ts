@@ -115,6 +115,46 @@ export const publicationsData: PublicationsData = {
       page: "5831-5841",
       year: "2026"
     },
+    {
+      title: "Strategies to Improve the Performance of Perovskite Solar Cells with Spiro-OMeTAD as HTM: A Comprehensive Review",
+      authors: "Van-Quy Hoang, Naveen Kumar, Vo Pham Hoang Huy, Khanh Le-Minh, Quynh Le-Van, Hai Le Tran, Ha Huu Do, Vu Khac Hoang Bui",
+      journal: "Journal of Science: Advanced Materials and Devices",
+      volume: "11",
+      page: "101131",
+      year: "2026"
+    },
+    {
+      title: "Ag-Induced Phase and Defect Engineering of Co-Evaporated Sb2Se3 Thin Films for Enhanced Photovoltaic Performance",
+      authors: "Van-Quy Hoang, Jaebaek Lee, Bashiru Kadiri-English, Eunkyung Cho, Amanat Ali, Naveen Kumar, Evgeniia Gilshtein, Stela Canulescu, Dae-Ho Son, Hyesun Yoo, Vo Pham Hoang Huy, Quynh Le-Van, Dae-Kue Hwang, Jin-Kyu Kang, Kee-Jeong Yang, Shi-Joon Sung, Dae-Hwan Kim",
+      journal: "Energy & Environmental Materials",
+      volume: "-",
+      page: "e70322",
+      year: "2026"
+    },
+    {
+      title: "Transition-Metal-Doped WSe2 Homojunctions for Multifunctional Logic and Optoelectronic Devices",
+      authors: "Vu Khac Dat, Minh Chien Nguyen, Hai Phuong Duong, Tien Dat Ngo, Mallesh Baithi, Van Dam Do, Chengyun Hong, Van Cao Nguyen, Thi Uyen Tran, Dinh Hoa Luong, Ki Kang Kim, Seong Chu Lim, Quynh Le-Van, Woo Jong Yu, Tuan Dung Nguyen, Ngoc Thanh Duong",
+      journal: "Communications Materials",
+      volume: "7",
+      page: "214",
+      year: "2026"
+    },
+    {
+      title: "Transparent Broadband Camouflage Based on Bayesian-Optimized Ultrathin Metamaterial",
+      authors: "Phon Hai Nguyen, Hai Anh Nguyen, Bui Son Tung, Do Khanh Tung, Phong Xuan Do, Quynh Le-Van, Nguyen Van Viet, Ha Duy Toan, Bui Xuan Khuyen, Vu Dinh Lam",
+      journal: "Journal of Physics D: Applied Physics",
+      volume: "59",
+      page: "295103",
+      year: "2026"
+    },
+    {
+      title: "Inkjet Printed Micron-Sized Random Lasers",
+      authors: "Lien Thi Ngo, Tien Van Nguyen, Toan Van Nguyen, Tung Anh Doan, Son Huy Le, Quynh Le-Van, Lien Ha Thi Nghiem, Soraya Caixeiro, Riccardo Sapienza, Van Duong Ta",
+      journal: "Optical Materials",
+      volume: "179",
+      page: "118358",
+      year: "2026"
+    },
   ],
   priorToVinUniversity: [
     {

@@ -16,7 +16,7 @@ await rimraf('dist')
  */
 const esbuildOpts = {
   color: true,
-  entryPoints: isProd ? ['src/main.tsx'] : ['src/main.tsx', 'index.html'],
+  entryPoints: ['src/main.tsx'],
   outdir: 'dist',
   entryNames: isProd ? '[name][hash]' : '[name]',
   metafile: isProd,
@@ -70,9 +70,23 @@ if (isProd) {
   console.log(`Published ${jsName}${cssName ? ` and ${cssName}` : ''}; index.html updated.`)
 } else {
   const ctx = await esbuild.context(esbuildOpts)
+
+  // Build once so dist/ and its bundles exist.
+  await ctx.rebuild()
+
+  // Create a development index that references development bundle names.
+  let html = await readFile('index.html', 'utf8')
+  html = html.replace(/main-?[A-Za-z0-9]+\.js/g, 'main.js')
+  html = html.replace(/main-?[A-Za-z0-9]+\.css/g, 'main.css')
+  await writeFile('dist/index.html', html)
+
   await ctx.watch()
-  const { hosts, port } = await ctx.serve()
-  console.log(`Running on:`)
+
+  const { hosts, port } = await ctx.serve({
+    servedir: 'dist',
+  })
+
+  console.log('Running on:')
   hosts.forEach((host) => {
     console.log(`http://${host}:${port}`)
   })
