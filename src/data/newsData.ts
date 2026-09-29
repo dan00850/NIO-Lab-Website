@@ -13,6 +13,24 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
   {
+  title: "New publication in PhotoniX",
+  date: "September , 2026",
+  type: "Publication",
+  description: "Our latest work on emission enhancement in quantum emitters coupled to one-dimensional photonic crystals has been published in PhotoniX.",
+},
+{
+  title: "Dinh Bao Dan and Dr. Vu Khac Dat Visit Sungkyunkwan University for 2D Materials Research",
+  date: "August 2026",
+  type: "Go Global",
+  description: "We are pleased to share that Dinh Bao Dan and Dr. Vu Khac Dat visited Sungkyunkwan University (SKKU) in South Korea to conduct collaborative experiments on two-dimensional (2D) materials.\n\nDuring the visit, they worked with researchers at SKKU to investigate the properties and device applications of 2D materials. The research activities provided an opportunity to exchange experimental techniques, discuss device fabrication and characterization methods, and strengthen collaboration between the participating research groups.\n\nThis visit represents another important step in expanding our group's international research activities in nanophotonics, optoelectronics, and advanced material systems. We look forward to the research outcomes and future collaborations arising from this visit."
+},
+{
+  title: "Welcome Thibaud Fage, Our New Photonic Simulation Intern",
+  date: "May 2026",
+  type: "New Member",
+  description: "We are pleased to welcome Thibaud Fage as a new intern in our research group. Thibaud is a  student in the Engineering Physics (IPHY) program at Grenoble INP–Phelma, Université Grenoble Alpes (UGA), France.\n\nDuring his internship, Thibaud will work on photonic simulations, applying numerical modeling methods to investigate the optical behavior of photonic structures. His work will contribute to the group's ongoing research in nanophotonics and optoelectronic devices.\n\nWe warmly welcome Thibaud and look forward to his contributions to the group."
+},
+  {
     title: "Congratulations to our group members: Nguyen Dinh Phong, Tran Dang Khoa, Pham Trung Kien went to the Polytechnic University of Bari (Italy).",
     date: "January 2026",
     type: "Go Global",
@@ -58,5 +76,11 @@ export const newsData: NewsItem[] = [
     date: "15th July 2025",
     type: "New Members",
     description: "Dr. Quy specializes in solar cell fabrication and characterization."
-  }
+  },
+  {
+  title: "Welcome Elise Marie Petitjean, Our New LED Fabrication Intern",
+  date: "May 2025",
+  type: "New Member",
+  description: "We are pleased to welcome Elise Marie Petitjean from France as a new intern in our research group.\n\nDuring her internship, Elise will work on light-emitting diode (LED) fabrication. Her activities will provide hands-on experience in device preparation and experimental research while contributing to the group's work on optoelectronic devices.\n\nWe warmly welcome Elise and wish her a productive and rewarding internship with our group."
+},
 ];

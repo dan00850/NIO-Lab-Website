@@ -155,6 +155,15 @@ export const publicationsData: PublicationsData = {
       page: "118358",
       year: "2026"
     },
+    
+    {
+  title: "Unravelling the Mechanisms of Emission Enhancement in Quantum Emitters Coupled to One-Dimensional Photonic Crystals",
+  authors: "Trang Huyen Le, Thuy-Dung Tran Doan, Seemesh Bhaskar, Dinh Bao Dan, Viet Anh Nguyen, Tran Thi Thu Uyen, Duong Pham, Duc Trung Pham, Van Quyen Nguyen, Duyen Thi Do, Bui Xuan Khuyen, Bui Son Tung, Thanh Binh Nguyen, Cuong Danh Do, Hai Son Nguyen, Vu Dinh Lam, Brian T. Cunningham, Quynh Le-Van",
+  journal: "PhotoniX",
+  volume: "7",
+  page: "70",
+  year: "2026"
+},
   ],
   priorToVinUniversity: [
     {

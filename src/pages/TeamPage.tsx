@@ -57,6 +57,11 @@ export default function TeamPage() {
               {person.education.bsc && (
                 <p className="text-gray-600 text-xs">{person.education.bsc}</p>
               )}
+              {person.education.lecturer && (
+                <p className="text-gray-600 text-xs">
+                  {person.education.lecturer}
+                </p>
+              )}
             </div>
           </div>
         )}

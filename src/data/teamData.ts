@@ -14,6 +14,7 @@ export interface TeamMember {
     phd?: string;
     msc?: string;
     bsc?: string;
+    lecturer?: string;
   };
   bio?: string;
   office?: string;
@@ -128,7 +129,55 @@ export const teamData: TeamData = {
       joinDate: "August 2023",
       imageUrl: "https://i.postimg.cc/FRht7V8Z/plaincolor-JPG.jpg"
     },
-    
+    {
+  name: "Tong Ba Tuan",
+  role: "PhD Student",
+  research: "Simulations of photonic structures",
+  education: {
+    lecturer: "Lecturer: Hanoi University of Mining and Geology (HUMG)"
+  },
+  email: "",
+  joinDate: "",
+  imageUrl: "https://i.postimg.cc/k4QzJFbp/1790694095058-1196542695842170785-1196542695842170785-4e6fe73904b02d5349e160a0f1906bea.jpg"
+},
+    {
+  name: "Le Huyen Trang",
+  role: "Research Assistant",
+  research: "Light–matter interactions and photonics",
+  education: {
+    bsc: "BSc: Physics, Hanoi National University of Education (HNUE)"
+  },
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
+{
+  name: "Nguyen Ha Phuong",
+  role: "Research Assistant",
+  research: "Quantum dots and nanocrystal synthesis",
+  education: {},
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
+{
+  name: "Le Huu Phuoc",
+  role: "Research Assistant",
+  research: "Photonic simulation",
+  education: {},
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
+{
+  name: "Hoang Chi Hung",
+  role: "Intern",
+  research: "Perovskite light-emitting diodes (PeLEDs)",
+  education: {},
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
     {
       name: "Tran Thi Thu Uyen",
       role: "Research Assistant",
@@ -140,18 +189,7 @@ export const teamData: TeamData = {
       joinDate: "August 2025",
       imageUrl: "https://i.postimg.cc/zGXy43N2/uyen5jpg.jpg"
     },
-    {
-      name: "Nguyen Nam Khanh",
-      role: "Research Assistant",
-      research: "Electromagnetic Interference (EMI) shielding materials, Perovskite Light emitting diodes (PeLEDs)",
-      education: {
-        msc: "MSc: Electrical Engineering, Chungnam National University (2025)",
-        bsc: "BSc: Physics, Vietnam National University - University of Science (2021)"
-      },
-      email: "khanh.nn5@vinuni.edu.vn",
-      joinDate: "February 2026",
-      imageUrl: "https://i.postimg.cc/2jww6fyr/Nguyen-Nam-Khanh.jpg"
-    }   
+     
   ],
   undergraduateStudents: [
     {
@@ -162,6 +200,17 @@ export const teamData: TeamData = {
       joinDate: "September 2024",
       imageUrl: "https://i.postimg.cc/0jPXrTrP/DBD.jpg"
     },
+    {
+  name: "My Nhan Ngo",
+  role: "Undergraduate Student",
+  research: "Photonic simulation",
+  education: {
+    bsc: "BSc: Electrical Engineering (in progress)"
+  },
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
     {
       name: "Pham Trung Kien, EE Cohort 4",
       role: "Undergraduate Student",
@@ -229,6 +278,7 @@ export const teamData: TeamData = {
       role: "Undergraduate Student",
       imageUrl: "https://i.postimg.cc/rFZtjh9D/team-member-9-3-jpg.jpg"
     },
+    
     ],
     researchAssistants: [
       {
@@ -239,12 +289,35 @@ export const teamData: TeamData = {
         imageUrl: "https://i.postimg.cc/QCGprJ7R/TQT.jpg"
       },
       {
+      name: "Nguyen Nam Khanh",
+      role: "Research Assistant",
+      imageUrl: "https://i.postimg.cc/2jww6fyr/Nguyen-Nam-Khanh.jpg"
+    },  
+      {
       name: "Nguyen Thi Ben",
       role: "Research Assistant",
       duration: "2025",
       imageUrl: "https://i.postimg.cc/4NsrPP3R/Bennt.jpg"
 
     },
+    {
+  name: "Elise Marie Petitjean",
+  role: "Intern",
+  research: "LED fabrication and characterization",
+  education: {},
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
+{
+  name: "Thibaud Fage",
+  role: "Intern",
+  research: "Photonic simulation",
+  education: {},
+  email: "",
+  joinDate: "",
+  imageUrl: "PASTE_DIRECT_IMAGE_LINK_HERE"
+},
       {
         name: "Nguyen Dinh Hai",
         role: "Research Assistant",
